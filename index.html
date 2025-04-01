@@ -18,7 +18,7 @@
         event.preventDefault();
         const email = document.getElementById('email').value;
         
-        const response = await fetch('https://scraper-9egrq4y5v-nightbreeds-projects.vercel.app/api/github-webhook', {
+        const response = await fetch('https://scraper-ashy.vercel.app/api/github-webhook', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email })
